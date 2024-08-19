@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .background-light700_dark700 {
+    @apply bg-light-700 dark:bg-dark-700;
+  }
+  .background-light700_dark600 {
+    @apply bg-light-700 dark:bg-dark-600;
+  }
+  .background-light700_dark500 {
+    @apply bg-light-700 dark:bg-dark-500;
+  }
+  .background-light600_dark700 {
+    @apply bg-light-600 dark:bg-dark-700;
+  }
+  .background-light600_dark600 {
+    @apply bg-light-600 dark:bg-dark-600;
+  }
+  .background-light600_dark500 {
+    @apply bg-light-600 dark:bg-dark-500;
+  }
+  .background-light500_dark700 {
+    @apply bg-light-500 dark:bg-dark-700;
+  }
+  .background-light500_dark600 {
+    @apply bg-light-500 dark:bg-dark-600;
+  }
+  .background-light500_dark500 {
+    @apply bg-light-500 dark:bg-dark-500;
+  }
+  .background-light900_dark900 {
+    @apply bg-light-900 dark:bg-dark-900;
+  }
+  .background-light900_dark700 {
+    @apply bg-light-900 dark:bg-dark-700;
+  }
+  .background-light900_dark600 {
+    @apply bg-light-900 dark:bg-dark-600;
+  }
+  .background-light900_dark500 {
+    @apply bg-light-900 dark:bg-dark-500;
+  }
+  .background-light700_dark900 {
+    @apply bg-light-700 dark:bg-dark-900;
+  }
+  .background-light600_dark900 {
+    @apply bg-light-600 dark:bg-dark-900;
+  }
+  .background-light500_dark600 {
+    @apply bg-light-500 dark:bg-dark-900;
+  }
+
+  .text-dark900_light900 {
+    @apply text-dark-900 dark:text-light-900;
+  }
+  .text-dark900_light700 {
+    @apply text-dark-900 dark:text-light-700;
+  }
+  .text-dark700_light700 {
+    @apply text-dark-700 dark:text-light-700;
+  }
+  .text-dark600_light600 {
+    @apply text-dark-600 dark:text-light-600;
+  }
+  .text-dark500_light500 {
+    @apply text-dark-500 dark:text-light-500;
+  }
+
+  .h2-bold {
+    @apply text-[24px] font-bold leading-[31.2px];
+  }
+}
