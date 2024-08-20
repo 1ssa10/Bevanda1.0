@@ -10,3 +10,8 @@
 .flex-between {
   @apply flex items-center justify-between;
 }
+
+.active-theme {
+  filter: invert(53%) sepia(98%) saturate(3332%) hue-rotate(100deg)
+    brightness(150%) contrast(130%) !important;
+}

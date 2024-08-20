@@ -8,13 +8,12 @@ interface themeContextType {
 }
 const ThemeContext = createContext<themeContextType | undefined>(undefined);
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
-  const [mode, setMode] = useState("dark");
+  const [mode, setMode] = useState("");
   const handleTHemeChange = () => {
     if (
       localStorage.theme === "dark" ||
       (!("theme" in localStorage) &&
-        window.matchMedia("prefers-color-scheme:dark").matches) ||
-      mode === "dark"
+        window.matchMedia("(prefers-color-scheme:dark)").matches)
     ) {
       setMode("dark");
       document.documentElement.classList.add("dark");

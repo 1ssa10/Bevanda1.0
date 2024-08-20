@@ -71,4 +71,8 @@
   .h2-bold {
     @apply text-[24px] font-bold leading-[31.2px];
   }
+
+  .h3-semibold {
+    @apply text-[18px] font-semibold leading-[31.2px];
+  }
 }

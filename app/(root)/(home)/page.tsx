@@ -6,9 +6,9 @@ import React from "react";
 const page = () => {
   const { mode, setMode } = useTheme();
   return (
-    <div className="relative flex  min-h-[calc(100vh-48px)]  flex-col items-center  justify-between font-spaceGrotesk ">
+    <div className="relative flex  min-h-[calc(100vh)]  flex-col items-center  justify-between font-spaceGrotesk ">
       <video
-        className={`absolute bottom-0 max-w-screen-md ${mode === "light" ? "invert" : ""} `}
+        className={`absolute bottom-0  w-screen md:max-w-screen-md  ${mode === "light" ? "invert" : ""} `}
         autoPlay
         playsInline
         muted
