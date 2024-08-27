@@ -5,6 +5,8 @@ import Link from "next/link";
 import React from "react";
 import Theme from "./Theme";
 
+import Navigation from "./Navigation";
+
 const NavBar = () => {
   return (
     <nav className="flex-between background-light900_dark900  fixed z-50 w-full gap-5 p-6 ">
@@ -19,7 +21,7 @@ const NavBar = () => {
           BEV<span className=" text-primary-800">ANDA</span>
         </p>
       </Link>
-      Global search
+      <Navigation />
       <Theme />
     </nav>
   );

@@ -32,6 +32,7 @@ const config: Config = {
       fontFamily: {
         inter: ["var(--font-inter)"],
         spaceGrotesk: ["var(--font-spaceGrotesk)"],
+        orbitron: ["var(--font-orbitron)"],
       },
     },
   },

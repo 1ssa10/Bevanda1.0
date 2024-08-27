@@ -15,3 +15,7 @@
   filter: invert(53%) sepia(98%) saturate(3332%) hue-rotate(100deg)
     brightness(150%) contrast(130%) !important;
 }
+
+.primary-gradient {
+  background: linear-gradient(129deg, #1cff4d 0%, #bcfea1 100%);
+}

@@ -76,3 +76,7 @@
     @apply text-[18px] font-semibold leading-[31.2px];
   }
 }
+
+.invert-colors {
+  @apply invert dark:invert-0;
+}

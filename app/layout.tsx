@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Inter, Orbitron, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import { ThemeProvider } from "@/context/ThemeProvider";
@@ -14,6 +14,12 @@ const SpaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-spaceGrotesk",
+});
+
+const orbitron = Orbitron({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-orbitron",
 });
 
 export const metadata: Metadata = {
@@ -33,7 +39,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${SpaceGrotesk.variable}`}>
+      <body
+        className={`${inter.variable} ${SpaceGrotesk.variable} ${orbitron.variable}`}
+      >
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
