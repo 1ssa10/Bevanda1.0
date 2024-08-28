@@ -6,6 +6,7 @@ import React from "react";
 import Theme from "./Theme";
 
 import Navigation from "./Navigation";
+import MobileNav from "./MobileNav";
 
 const NavBar = () => {
   return (
@@ -22,7 +23,10 @@ const NavBar = () => {
         </p>
       </Link>
       <Navigation />
-      <Theme />
+      <div className=" flex-center">
+        <Theme />
+        <MobileNav />
+      </div>
     </nav>
   );
 };

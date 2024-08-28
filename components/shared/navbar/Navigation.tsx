@@ -17,7 +17,7 @@ const Navigation = () => {
   const pathname = usePathname();
 
   return (
-    <NavigationMenu>
+    <NavigationMenu className="max-sm:hidden">
       <NavigationMenuList className="gap-2">
         {navigations.map((item) => {
           const isActive =
