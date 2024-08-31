@@ -21,3 +21,61 @@ export const navigations = [
     label: "Cart",
   },
 ];
+
+export const nutritionFacts = [
+  {
+    label: "Calories",
+    value: 0,
+    unit: "kcal",
+  },
+  {
+    label: "Fat",
+    value: 0,
+    unit: "g",
+  },
+  {
+    label: "Carbohydrates",
+    value: 0,
+    unit: "g",
+  },
+  {
+    label: "Sugars",
+    value: 0,
+    unit: "g",
+  },
+  {
+    label: "Dietary Fiber",
+    value: 0,
+    unit: "g",
+  },
+  {
+    label: "Protein",
+    value: 0,
+    unit: "g",
+  },
+  {
+    label: "Sodium",
+    value: 10,
+    unit: "mg",
+  },
+  {
+    label: "Calcium",
+    value: 4,
+    unit: "mg",
+  },
+  {
+    label: "Potassium",
+    value: 0,
+    unit: "mg",
+  },
+  {
+    label: "Cholesterol",
+    value: 0,
+    unit: "mg",
+  },
+  {
+    label: "Caffeine",
+    value: 0,
+    unit: "mg",
+  },
+];

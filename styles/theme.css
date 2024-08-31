@@ -49,6 +49,9 @@
     @apply bg-light-600 dark:bg-dark-900;
   }
   .background-light500_dark600 {
+    @apply bg-light-500 dark:bg-dark-600;
+  }
+  .background-light500_dark900 {
     @apply bg-light-500 dark:bg-dark-900;
   }
 
@@ -79,4 +82,8 @@
 
 .invert-colors {
   @apply invert dark:invert-0;
+}
+
+.paragraph-small {
+  @apply text-[14px] font-light leading-[18px] tracking-tight;
 }
