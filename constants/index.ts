@@ -79,3 +79,14 @@ export const nutritionFacts = [
     unit: "mg",
   },
 ];
+
+export const bentoList = [
+  { index: 0, imgUrl: "", text: "item-1", className: "row-span-2" },
+  { index: 1, imgUrl: "", text: "item-2", className: "col-span-2" },
+  { index: 2, imgUrl: "", text: "item-3", className: "" },
+  { index: 3, imgUrl: "", text: "item-4", className: "row-span-2 col-span-2" },
+  { index: 4, imgUrl: "", text: "item-5", className: "row-span-2" },
+  { index: 5, imgUrl: "", text: "item-6", className: "" },
+  { index: 6, imgUrl: "", text: "item-7", className: "col-span-2" },
+  { index: 7, imgUrl: "", text: "item-8", className: "col-span-2" },
+];
